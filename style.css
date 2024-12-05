@@ -1,0 +1,79 @@
+/* General body styling with a background image */
+body {
+    font-family: Arial, sans-serif;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover; /* Ensures the image covers the entire screen */
+    backdrop-filter: blur(5px); /* Adds a blur effect to the image */
+    color: #fff; /* Makes text white for better visibility */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Aligns items in a column */
+    align-items: center;    /* Centers content horizontally */
+    justify-content: flex-start; /* Aligns content to start from the top */
+    height: 100vh; /* Ensures the layout takes the full height of the screen */
+}
+
+/* Styling for the main heading */
+h1 {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px; /* Adds space above the heading */
+    margin-bottom: 30px; /* Adds space below the heading */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Shadow effect for better visibility */
+    font-size: 2.5em; /* Increases the heading size */
+}
+
+/* Styling for the form container */
+#sgpa-form {
+    background: rgba(255, 255, 255, 0.8); /* Translucent white background */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Adds internal spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for a 3D effect */
+    width: 80%; /* Makes the form responsive */
+    max-width: 500px; /* Sets a maximum width for larger screens */
+    text-align: left; /* Aligns text to the left */
+}
+
+/* Styling for the labels (subject names) */
+label {
+    color: black; /* Changes text color to black */
+    font-size: 1.2em; /* Adjusts font size for readability */
+    margin-bottom: 5px; /* Adds space below the label */
+    display: block; /* Ensures the label is on a new line */
+}
+
+/* Input field styling */
+input[type="text"] {
+    width: 100%; /* Full width of the input field */
+    padding: 10px; /* Adds internal padding */
+    margin: 10px 0; /* Adds space between input fields */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounds the corners */
+    font-size: 1em; /* Standard font size */
+}
+
+/* Submit button styling */
+button[type="submit"] {
+    background-color: #4CAF50; /* Green button */
+    color: white; /* White text */
+    padding: 10px 20px; /* Internal padding */
+    border: none; /* Removes border */
+    border-radius: 5px; /* Rounds the corners */
+    font-size: 1em; /* Standard font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-top: 10px; /* Adds space above the button */
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+}
+
+/* Styling for the result text */
+#result {
+    text-align: center; /* Centers the result text */
+    margin-top: 40px; /* Adds space above the result */
+    font-size: 1.2em; /* Slightly larger font size */
+    color: #444; /* Subtle text color for contrast */
+    font-weight: bold; /* Boldens the text */
+}

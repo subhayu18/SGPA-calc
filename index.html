@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SGPA Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>SGPA Calculator</h1>
+    
+    <form id="sgpa-form">
+        <div>
+            <label for="gp">General Proficiency-II : </label>
+            <input type="text" id="gp" required>
+        </div>
+        <div>
+            <label for="uhv">UHV-II : </label>
+            <input type="text" id="uhv" required>
+        </div>
+        <div>
+            <label for="aptitude">Aptitude-I : </label>
+            <input type="text" id="aptitude" required>
+        </div>
+        <div>
+            <label for="internship">Social Internship : </label>
+            <input type="text" id="internship" required>
+        </div>
+        <div>
+            <label for="agile">Agile Development Methodologies : </label>
+            <input type="text" id="agile" required>
+        </div>
+        <div>
+            <label for="math">Discrete Mathematics : </label>
+            <input type="text" id="math" required>
+        </div>
+        <div>
+            <label for="dbms">Database Management System : </label>
+            <input type="text" id="dbms" required>
+        </div>
+        <div>
+            <label for="os">Operating System : </label>
+            <input type="text" id="os" required>
+        </div>
+        <div>
+            <label for="ds">Data Structures : </label>
+            <input type="text" id="ds" required>
+        </div>
+        <div>
+            <label for="stats">Statistics for Data Science : </label>
+            <input type="text" id="stats" required>
+        </div>
+        <button type="button" onclick="calculateSGPA()"> Calculate SGPA </button>
+    </form>
+    <p id="result"></p>
+    <script src="script.js"></script>
+</body>
+</html>
